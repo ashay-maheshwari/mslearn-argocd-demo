@@ -75,9 +75,7 @@ spec:
             - containerPort: 8080
               name: http
 ---
-apiVersion: v1clear
-clear
-
+apiVersion: v1
 kind: Service
 metadata:
   name: eshop-backend
