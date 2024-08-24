@@ -26,13 +26,6 @@ spec:
           ports:
             - containerPort: 8080
               name: http
-          volumeMounts:
-            - name: productservice-storage
-              mountPath: /data  # Path inside the container where the volume will be mounted
-      volumes:
-        - name: productservice-storage
-          persistentVolumeClaim:
-            claimName: productservice-pvc          
 ---
 apiVersion: v1
 kind: Service
