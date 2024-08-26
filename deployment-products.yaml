@@ -14,7 +14,7 @@ spec:
       nodeSelector:
         kubernetes.io/os: linux
       containers:
-        - image: productionclusterregistry.azurecr.io/products:b09465298c3fcbaeb2b59ded181d959475f31a88
+        - image: productionclusterregistry.azurecr.io/products:ea553a6cd9d9a955248e3481069287cb58768326
           name: productservice
           resources:
             requests:
